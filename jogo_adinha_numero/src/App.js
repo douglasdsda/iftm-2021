@@ -10,7 +10,7 @@ const arrayStatus = [
 export class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { pesquisar: "", valor: "28", status: "inicio", contador: 0 };
+    this.state = { pesquisar: "", valor: "", status: "inicio", contador: 0 };
     this.handlerStart = this.handlerStart.bind(this);
     this.handlerValue = this.handlerValue.bind(this);
   }
